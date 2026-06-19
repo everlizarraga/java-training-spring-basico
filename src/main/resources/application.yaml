@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: practica-01-paises-spring
