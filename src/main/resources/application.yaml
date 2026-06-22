@@ -1,3 +1,10 @@
 spring:
   application:
     name: practica-01-paises-spring
+paises:
+  url: https://restcountries.com/v3.1
+  nombre-catalogo: Catálogo Mundial
+
+usuario:
+  nombre: Ever
+  apellido: Lizarraga
