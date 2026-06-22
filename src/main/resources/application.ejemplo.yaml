@@ -2,7 +2,9 @@ spring:
   application:
     name: practica-01-paises-spring
 paises:
-  url: https://restcountries.com/v3.1
+  #url: https://restcountries.com/v3.1
+  url: https://api.restcountries.com/countries/v5
+  token: TU_TOKEN
   nombre-catalogo: Catálogo Mundial
 
 usuario:
