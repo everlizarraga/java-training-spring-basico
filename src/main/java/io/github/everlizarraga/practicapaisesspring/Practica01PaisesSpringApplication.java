@@ -13,6 +13,8 @@ public class Practica01PaisesSpringApplication {
     // Esta linea dice: "empezá a buscar clases desde acá"
     SpringApplication.run(Practica01PaisesSpringApplication.class, args);
 
+    System.out.println("========================");
+    System.out.println("========================");
     System.out.println("Hola SpringBoot !!!!");
   }
 

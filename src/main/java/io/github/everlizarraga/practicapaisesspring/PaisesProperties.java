@@ -8,5 +8,6 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 public class PaisesProperties {
 
   private String url;
+  private String apiKey;
   private String nombreCatalogo;
 }
