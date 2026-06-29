@@ -5,7 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
 @SpringBootApplication // = esta es una app Spring Boot, arrancá el framework
-@EnableConfigurationProperties(PaisesProperties.class)
+@EnableConfigurationProperties({
+    PaisesProperties.class
+})
 public class Practica01PaisesSpringApplication {
 
   public static void main(String[] args) {

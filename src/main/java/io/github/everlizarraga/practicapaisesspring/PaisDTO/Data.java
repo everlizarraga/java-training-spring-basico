@@ -10,5 +10,4 @@ import java.util.List;
 public class Data {
   @Getter @Setter
   private List<Pais> objects;
-
 }

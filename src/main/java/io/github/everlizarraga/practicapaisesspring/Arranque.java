@@ -1,6 +1,7 @@
 package io.github.everlizarraga.practicapaisesspring;
 
 import io.github.everlizarraga.practicapaisesspring.PaisDTO.Pais;
+import org.jspecify.annotations.NonNull;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -15,7 +16,7 @@ public class Arranque implements CommandLineRunner {
   }
 
   @Override
-  public void run(String... args) {
+  public void run(String @NonNull ... args) {
     System.out.println(">>> Llamando a la API...");
     //this.traerArgentinaEnTextoPlano();
     this.buscarPorQuery("argentina");
